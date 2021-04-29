@@ -12,7 +12,7 @@ function App() {
 
   const url= `https://api.nytimes.com/svc/books/v3/lists/current/${genre.fiction}.json?api-key=${apiKey}`
 
-  console.log(genre.fiction)
+
 
   const getFiction = async () => { 
     const response = await fetch(url)
