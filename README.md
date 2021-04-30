@@ -126,6 +126,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | True Crime|          This will contain the list of True Crime books       |
 | Self Help |          This will contain the list of Self Help books        |
 |ReadingList|          This will contain list of books user wants to read   |
+|Book Review|          This will contain review of each book                |
 |Search Form|          Able to search by title                              |
 
 
@@ -134,6 +135,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Component        | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------- | :------: | :------------: | :------------: | :---------: |
 | Project Planning |    H     |      3hrs      |     hrs        |      hrs    |
+| Create react app |    H     |      1hr       |     hrs        |      hrs    |
+| Set up Routes    |    H     |      1hrs      |     hrs        |      hrs    |
 | Nav Bar          |    H     |      1hrs      |     hrs        |      hrs    |
 | Fiction List     |    H     |      2hrs      |     hrs        |      hrs    |
 | Nonfiction List  |    H     |      2hrs      |     hrs        |   hrs       |
@@ -143,7 +146,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | User Read List   |    H     |      3hrs      |     hrs        |   hrs       |
 | Search Form      |    H     |      3hrs      |     hrs        |   hrs       |
 | Working with API |    H     |      3hrs      |     hrs        |   hrs       |
-| Total            |    H     |      21hrs     |      hrs       |    hrs      |
+| Style Components |    H     |      4hrs      |     hrs        |      hrs    |
+| Total            |    H     |      30hrs     |      hrs       |    hrs      |
 
 ## Additional Libraries
 
