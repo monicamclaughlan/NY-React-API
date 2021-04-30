@@ -1,52 +1,23 @@
 import './App.css';
 import {Route, Switch} from 'react-router-dom'
+import {useState} from 'react'
 import Nav from './components/Nav'
 import Main from './pages/Main'
 import ReadingList from './pages/ReadingList'
 import Reviews from './pages/Reviews'
 import Footer from './components/Footer'
+import Categories from './components/Categories';
+
 
 function App() {
   const apiKey = "eNetSKoCDjuFllCX5kndIoGNknTPGYXj"
 
-  const genre = {
-    fiction: 'mass-market-paperback', 
-    nonfiction: 'paperback-nonfiction', 
-    selfhelp: 'paperback-advice', 
-    crime: 'crime-and-punishment'
-}
-
-    const fictionurl = `https://api.nytimes.com/svc/books/v3/lists/current/${genre.fiction}.json?api-key=${apiKey}` 
-    const nonfictionurl = `https://api.nytimes.com/svc/books/v3/lists/current/${genre.nonfiction}.json?api-key=${apiKey}`
-    const selfhelpurl = `https://api.nytimes.com/svc/books/v3/lists/current/${genre.selfhelp}.json?api-key=${apiKey}`
-    const crimeurl = `https://api.nytimes.com/svc/books/v3/lists/current/${genre.crime}.json?api-key=${apiKey}`
-  
     const reviewurl= `https://api.nytimes.com/svc/books/v3/reviews.json?title=Becoming&api-key=${apiKey}`
 
+    const [list, setList] = useState([])
 
-  const getFiction = async () => {
-    const response = await fetch(fictionurl)
-    const data = await response.json()
-    console.log(data.results)
-  }
+    const [review, setReview] = useState([])
 
-  const getNonfiction = async () => {
-    const response = await fetch(nonfictionurl)
-    const data = await response.json()
-    console.log(data.results)
-  }
-
-  const getHelp = async () => {
-    const response = await fetch(selfhelpurl)
-    const data = await response.json()
-    console.log(data.results)
-  }
-
-  const getCrime = async () => {
-    const response = await fetch(crimeurl)
-    const data = await response.json()
-    console.log(data.results)
-  }
 
   const getReview = async () => { 
     const response = await fetch(reviewurl)
@@ -59,12 +30,14 @@ function App() {
   return (
     <div className="App">
           <Nav />
+          <Categories setList={setList} /> 
           <Switch>
-            <Route exact path ="/">
-                <Main />    
+            <Route path exact ="/">
+                <Main list={list} setReview={setReview}/>  
+                 
             </Route>
             <Route path="/Reviews">
-              <Reviews />
+              <Reviews review={review}/>
             </Route>
             <Route path="/ReadingList">
               <ReadingList/>
