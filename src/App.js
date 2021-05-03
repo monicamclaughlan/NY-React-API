@@ -37,7 +37,7 @@ function App() {
               <Reviews review={review}/>
             </Route>
             <Route path="/ReadingList">
-              <ReadingList readinglist={readinglist} remove={removeFromReadingList}/>
+              <div className="list-style"><ReadingList readinglist={readinglist} remove={removeFromReadingList}/></div>
             </Route>
           </Switch>
           <footer><Footer /></footer>

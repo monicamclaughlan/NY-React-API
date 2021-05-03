@@ -15,7 +15,7 @@ const Categories = ({setList}) => {
             <button onClick={() => handleClick('combined-print-nonfiction')}>Non-Fiction</button>
             <button onClick={() => handleClick('crime-and-punishment')}>True Crime</button>
             <button onClick={() => handleClick('paperback-advice')}>Self Help</button>
-            <button onClick={() => handleClick('graphic-books-and-manga')}>Manga</button>
+            <button onClick={() => handleClick('manga')}>Manga</button>
             <button onClick={() => handleClick('picture-books')}>Children's</button>
             <button onClick={() => handleClick('young-adult-paperback')}>Young Adult</button>
             <button onClick={() => handleClick('animals')}>Animals</button>

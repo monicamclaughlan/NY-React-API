@@ -135,5 +135,54 @@ footer {
 }
 
 .my-list { 
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.my-list img { 
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) { 
+  .movie-card h4 { 
+    transform: translate(-200px, -60px);
+  }
+
+  .back-to-top {
+    transform: translate(650px, -50px);
+  }
+}
+
+@media screen and (min-width: 1024px) { 
+  .back-to-top { 
+    transform: translate(900px, -50px);
+  }
+
+  .movie-card { 
+    margin-right: 20px;
+    height: 700px;
+  }
+
+  .list-style { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .my-list { 
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .back-to-top { 
+    transform: translate(1330px, -50px);
+  }
 }
