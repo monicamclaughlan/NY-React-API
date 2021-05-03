@@ -134,19 +134,19 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 | Component        | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------- | :------: | :------------: | :------------: | :---------: |
-| Project Planning |    H     |      3hrs      |     3hrs        |      hrs    |
-| Create react app |    H     |      1hr       |     0.5hrs        |      hrs    |
-| Set up Routes    |    H     |      1hrs      |     0.5hrs        |      hrs    |
-| Nav Bar          |    H     |      1hrs      |     0.5hrs        |      hrs    |
-| Fiction List     |    H     |      2hrs      |     1hrs        |      hrs    |
-| Nonfiction List  |    H     |      2hrs      |     1hrs        |   hrs       |
-| True Crime List  |    H     |      2hrs      |     1hrs        |   hrs       |
-| Self Help List   |    H     |      2hrs      |     1hrs        |   hrs       |
-| Click Review     |    H     |      3hrs      |     3hrs        |   hrs       |
-| User Read List   |    H     |      3hrs      |     2hrs        |   hrs       |
+| Project Planning |    H     |      3hrs      |     3hrs        |      3hrs    |
+| Create react app |    H     |      1hr       |     0.5hrs        |      0.5hrs    |
+| Set up Routes    |    H     |      1hrs      |     0.5hrs        |      0.5hrs    |
+| Nav Bar          |    H     |      1hrs      |     0.5hrs        |      0.5hrs    |
+| Fiction List     |    H     |      2hrs      |     1hrs        |      1hrs    |
+| Nonfiction List  |    H     |      2hrs      |     1hrs        |   1hrs       |
+| True Crime List  |    H     |      2hrs      |     1hrs        |   1hrs       |
+| Self Help List   |    H     |      2hrs      |     1hrs        |   1hrs       |
+| Click Review     |    H     |      3hrs      |     3hrs        |   3hrs       |
+| User Read List   |    H     |      3hrs      |     2hrs        |   2hrs       |
 | Search Form      |    H     |      3hrs      |     hrs        |   hrs       |
-| Working with API |    H     |      3hrs      |     2hrs        |   hrs       |
-| Style Components |    H     |      4hrs      |     2hrs        |      hrs    |
+| Working with API |    H     |      3hrs      |     2hrs        |   2hrs       |
+| Style Components |    H     |      4hrs      |     3hrs        |      hrs    |
 | Total            |    H     |      30hrs     |      hrs       |    hrs      |
 
 ## Additional Libraries

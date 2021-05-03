@@ -10,7 +10,6 @@ import Footer from './components/Footer'
 
 
 function App() {
-  const apiKey = "eNetSKoCDjuFllCX5kndIoGNknTPGYXj"
     
     const [list, setList] = useState([])
 

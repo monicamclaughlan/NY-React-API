@@ -6,6 +6,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Navigation Styling */
+
 .nav { 
   display: flex;
   justify-content: space-between;
@@ -36,6 +38,8 @@
 .nav a span { 
   font-weight: 700;
 }
+
+/* Main Section Styling */
 
 .main-section { 
   margin: 0 auto;
@@ -126,6 +130,8 @@ button:hover {
   transition: all 0.4s ease-in-out;
 }
 
+/* Footer Styling */
+
 footer { 
   position: relative;
   width: 100%;
@@ -157,6 +163,8 @@ footer a{
     padding: 14px 0;
 }
 
+/* Reading List Styling */
+
 .my-list { 
   display: flex; 
   flex-wrap: wrap;
@@ -174,6 +182,24 @@ footer a{
 
 .my-list button { 
   margin-bottom: 70px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 375px) { 
+  .back-to-top { 
+    transform: translate(270px, -50px);
+  }
+}
+
+@media screen and (min-width: 425px) { 
+  .genres button { 
+    margin: 5px 10px;
+  }
+
+  .back-to-top { 
+    transform: translate(320px, -50px);
+  }
 }
 
 @media screen and (min-width: 768px) { 
