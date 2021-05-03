@@ -25,11 +25,11 @@ const Main = ({list, setList, addToReadingList}) => {
     let reviewList = list.map((b,i) => {
         return (
             <div className='movie-card' key={i}>
-                <div><img src={b.book_image} /></div>
+                <div className="card-image"><img src={b.book_image} /></div>
                 <h4>{b.rank}</h4>
                 <p className="book-title">{b.title}</p>
                 <p>By {b.author}</p>
-                <p>{b.description}</p>
+                <p className="card-description">{b.description}</p>
                 <button onClick={() => addToReadingList(b.book_image)}>Add to My Reading List</button>
                 <a href={b.book_review_link} target="_blank">{b.book_review_link ? <button >See Book Review </button> : <p>No Review</p>}</a>
                 

@@ -58,6 +58,12 @@
   padding: 8px 1px;
 }
 
+.genres button:hover {
+  background-color: #C4C4C4;
+  color: white;
+  transform: translate(0px, -3px);
+}
+
 .main-section h3 { 
   margin-top: 50px;
 }
@@ -66,6 +72,7 @@
 img { 
   width: 200px;
   margin: 0 auto;
+  height: 300px;
 }
 
 .movie-card { 
@@ -82,6 +89,10 @@ img {
 
 .book-title, p { 
   text-align: center;
+}
+
+.card-description { 
+  height: 150px;
 }
 
 .movie-card a { 
@@ -106,6 +117,12 @@ button {
   border-radius: 5px;
   padding: 5px;
   margin-top: 5px;
+}
+
+button:hover { 
+  background-color: #C4C4C4;
+  color: white;
+  transform: translate(0, -3px);
 }
 
 footer { 
@@ -149,7 +166,15 @@ footer {
   margin-bottom: 30px;
 }
 
+.my-list button { 
+  margin-bottom: 70px;
+}
+
 @media screen and (min-width: 768px) { 
+  .genres button { 
+    margin: 5px 10px;
+  }
+
   .movie-card h4 { 
     transform: translate(-200px, -60px);
   }
@@ -160,6 +185,10 @@ footer {
 }
 
 @media screen and (min-width: 1024px) { 
+  .genres button { 
+    margin: 5px 25px;
+  }
+
   .back-to-top { 
     transform: translate(900px, -50px);
   }
@@ -178,6 +207,10 @@ footer {
   .my-list { 
     width: 30%;
     margin: 0 auto;
+  }
+
+  .card-description { 
+    height: 100px;
   }
 }
 
