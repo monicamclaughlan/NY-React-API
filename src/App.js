@@ -22,11 +22,13 @@ function App() {
       setReadingList([...readinglist, bookimage])
   }
 
+  const removeFromReadingList = (index) => setReadingList(readinglist.filter((currentValue,currentIndex) => currentIndex !== index))
+
 
 
   return (
     <div className="App">
-      <nav><Nav /></nav> 
+      <nav><Nav setList={setList}/></nav> 
           <Switch>
             <Route path exact ="/">
                 <Main list={list} setReview={setReview} setList={setList} addToReadingList={addToReadingList}/>
@@ -35,7 +37,7 @@ function App() {
               <Reviews review={review}/>
             </Route>
             <Route path="/ReadingList">
-              <ReadingList readinglist={readinglist}/>
+              <ReadingList readinglist={readinglist} remove={removeFromReadingList}/>
             </Route>
           </Switch>
           <footer><Footer /></footer>

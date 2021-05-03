@@ -11,8 +11,8 @@ const Categories = ({setList}) => {
 
     return (
         <div className="genres">
-            <button onClick={() => handleClick('mass-market-paperback')}>Fiction</button>
-            <button onClick={() => handleClick('paperback-nonfiction')}>Non-Fiction</button>
+            <button onClick={() => handleClick('combined-print-fiction')}>Fiction</button>
+            <button onClick={() => handleClick('combined-print-nonfiction')}>Non-Fiction</button>
             <button onClick={() => handleClick('crime-and-punishment')}>True Crime</button>
             <button onClick={() => handleClick('paperback-advice')}>Self Help</button>
         </div>
