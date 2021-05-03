@@ -3,10 +3,11 @@ import {Link} from "react-router-dom"
 
 const Nav = (props) => {
     return (
-        <div>
+        <div className='nav'>
             <Link to="/">
-                <div>greatReads</div>
+                <div>great<span>Reads</span></div>
             </Link>
+            <div className="title">---find your next Great read---</div>
             <Link to="ReadingList">
                 <div>My List</div>
             </Link>

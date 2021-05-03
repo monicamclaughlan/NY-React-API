@@ -2,9 +2,10 @@ import React from 'react'
 
 const Footer = (props) => {
     return (
-        <div>
-            <h1>This is the Footer Component</h1>
-        </div>
+        <>
+            <div>gR</div>
+            <p>Copyright 2021</p>
+        </>
     )
 }
 
