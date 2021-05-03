@@ -160,9 +160,13 @@ Use this section to include a brief code snippet of functionality that you are p
 Function that on click scrolls back to the top of the page.
 
 ```
-      <>
+        <>
             <div>gR</div>
             <p>Copyright 2021</p>
-            <p className="back-to-top" onClick={() => window.scrollTo(0,0)}>Back to Top</p>
+            <p className="back-to-top" onClick={() => window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            })}>Back to Top</p>
         </>
 ```
