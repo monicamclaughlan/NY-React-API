@@ -134,10 +134,10 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 | Component        | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------- | :------: | :------------: | :------------: | :---------: |
-| Project Planning |    H     |      3hrs      |     4hrs        |      hrs    |
+| Project Planning |    H     |      3hrs      |     3hrs        |      hrs    |
 | Create react app |    H     |      1hr       |     0.5hrs        |      hrs    |
 | Set up Routes    |    H     |      1hrs      |     0.5hrs        |      hrs    |
-| Nav Bar          |    H     |      1hrs      |     1hrs        |      hrs    |
+| Nav Bar          |    H     |      1hrs      |     0.5hrs        |      hrs    |
 | Fiction List     |    H     |      2hrs      |     1hrs        |      hrs    |
 | Nonfiction List  |    H     |      2hrs      |     1hrs        |   hrs       |
 | True Crime List  |    H     |      2hrs      |     1hrs        |   hrs       |
@@ -145,7 +145,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Click Review     |    H     |      3hrs      |     3hrs        |   hrs       |
 | User Read List   |    H     |      3hrs      |     2hrs        |   hrs       |
 | Search Form      |    H     |      3hrs      |     hrs        |   hrs       |
-| Working with API |    H     |      3hrs      |     3hrs        |   hrs       |
+| Working with API |    H     |      3hrs      |     2hrs        |   hrs       |
 | Style Components |    H     |      4hrs      |     2hrs        |      hrs    |
 | Total            |    H     |      30hrs     |      hrs       |    hrs      |
 
@@ -157,8 +157,12 @@ Supporting Libraries:
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description. Code snippet should not be greater than 10 lines of code.
 
+Function that on click scrolls back to the top of the page.
+
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+      <>
+            <div>gR</div>
+            <p>Copyright 2021</p>
+            <p className="back-to-top" onClick={() => window.scrollTo(0,0)}>Back to Top</p>
+        </>
 ```

@@ -49,6 +49,7 @@
 .genres { 
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .main-section h3 { 
