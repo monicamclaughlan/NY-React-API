@@ -24,7 +24,7 @@ const Main = ({list, setList, addToReadingList}) => {
                 <p className="book-title">{b.title}</p>
                 <p>By {b.author}</p>
                 <p className="card-description">{b.description}</p>
-                <p>Weeks on List {b.weeks_on_list}</p>
+                {b.weeks_on_list > 0 ? <p>Weeks on List {b.weeks_on_list}</p> : <></>}
                 <button onClick={() => addToReadingList(b.book_image)}>Add to My Reading List</button>
                 <a href={b.book_review_link} target="_blank">{b.book_review_link ? <button >See Book Review </button> : <p>No Review</p>}</a>
                 
