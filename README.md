@@ -144,9 +144,9 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Self Help List   |    H     |      2hrs      |     1hrs        |   1hrs       |
 | Click Review     |    H     |      3hrs      |     3hrs        |   3hrs       |
 | User Read List   |    H     |      3hrs      |     2hrs        |   2hrs       |
-| Search Form      |    H     |      3hrs      |     hrs        |   hrs       |
+| Search Form      |    H     |      3hrs      |     1hrs        |   1hrs       |
 | Working with API |    H     |      3hrs      |     2hrs        |   2hrs       |
-| Style Components |    H     |      4hrs      |     3hrs        |      hrs    |
+| Style Components |    H     |      4hrs      |     4hrs        |      4hrs    |
 | Total            |    H     |      30hrs     |      hrs       |    hrs      |
 
 ## Additional Libraries
@@ -169,4 +169,13 @@ Function that on click scrolls back to the top of the page.
                 behavior: 'smooth'
             })}>Back to Top</p>
         </>
+```
+
+Function to filter search input
+
+```
+   const handleSubmit = (e,search) => {
+		e.preventDefault();
+		setList(list.filter(r => r.title.toLowerCase().includes(search.toLowerCase())))
+	}
 ```
