@@ -273,3 +273,9 @@ form input {
     transform: translate(1330px, -50px);
   }
 }
+
+@media scree and (min-width:1604px) { 
+  form { 
+    width: 90%;
+  }
+}
