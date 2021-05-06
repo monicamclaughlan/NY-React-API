@@ -276,6 +276,6 @@ form input {
 
 @media scree and (min-width:1604px) { 
   form { 
-    width: 90%;
+    width: 100%;
   }
 }
