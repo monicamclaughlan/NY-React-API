@@ -63,7 +63,8 @@
 }
 
 .genres button:hover {
-  background-color: #C4C4C4;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,190,198,1) 100%, rgba(16,255,0,1) 100%);
   color: white;
   transform: translate(0px, -3px);
 }
@@ -129,7 +130,8 @@ button {
 }
 
 button:hover { 
-  background-color: #C4C4C4;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,190,198,1) 100%, rgba(16,255,0,1) 100%);
   color: white;
   transform: translate(0, -3px);
   transition: all 0.4s ease-in-out;
