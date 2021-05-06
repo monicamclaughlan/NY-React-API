@@ -63,8 +63,7 @@
 }
 
 .genres button:hover {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,190,198,1) 100%, rgba(16,255,0,1) 100%);
+  background: #b2b2b2;
   color: white;
   transform: translate(0px, -3px);
 }
@@ -124,14 +123,18 @@ img {
 }
 
 button { 
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 5px;
   margin-top: 5px;
+  border: none;
+}
+
+button:focus { 
+  background: #b2b2b2;
 }
 
 button:hover { 
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190,190,198,1) 100%, rgba(16,255,0,1) 100%);
+  background: #b2b2b2;
   color: white;
   transform: translate(0, -3px);
   transition: all 0.4s ease-in-out;
