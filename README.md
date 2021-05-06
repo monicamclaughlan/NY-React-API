@@ -146,12 +146,12 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | User Read List   |    H     |      3hrs      |     2hrs        |   2hrs       |
 | Search Form      |    H     |      3hrs      |     1hrs        |   1hrs       |
 | Working with API |    H     |      3hrs      |     2hrs        |   2hrs       |
-| Style Components |    H     |      4hrs      |     4hrs        |      4hrs    |
-| Total            |    H     |      30hrs     |      hrs       |    hrs      |
+| Style Components |    H     |      4hrs      |     5hrs        |      5hrs    |
+| Total            |    H     |      30hrs     |      21.5hrs       |    21.5hrs      |
 
 ## Additional Libraries
 
-Supporting Libraries: 
+
 
 ## Code Snippet
 
@@ -174,8 +174,8 @@ Function that on click scrolls back to the top of the page.
 Function to filter search input
 
 ```
-   const handleSubmit = (e,search) => {
+    const handleChange = (e) => {
 		e.preventDefault();
-		setList(list.filter(r => r.title.toLowerCase().includes(search.toLowerCase())))
+		setSearchResults(list.filter(r => r.title.toLowerCase().includes(e.target.value.toLowerCase()) || r.author.toLowerCase().includes(e.target.value.toLowerCase())))
 	}
 ```
