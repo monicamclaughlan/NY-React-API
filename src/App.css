@@ -203,6 +203,7 @@ form {
 form input { 
   margin-right: 5px;
   margin-top: 10px;
+  padding: 5px;
 }
 
 /* Media Queries */
