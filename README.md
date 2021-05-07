@@ -149,8 +149,6 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Style Components |    H     |      4hrs      |     5hrs        |      5hrs    |
 | Total            |    H     |      30hrs     |      21.5hrs       |    21.5hrs      |
 
-## Additional Libraries
-
 
 
 ## Code Snippet
